@@ -86,4 +86,4 @@ app
 
 ## Copyright and License
 
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT] license.
+Copyright 2019 Phucnd -  Sauanla. Code released under the [MIT] license.
