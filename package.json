@@ -17,5 +17,8 @@
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
     "request": "^2.88.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
