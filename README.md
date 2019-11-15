@@ -40,17 +40,20 @@ app
 ```
 
 #### package.json
+```
+#require
+$ npm install express
+$ npm install express-ejs-layouts
+$ npm install ejs
+$ npm install body-parser
 
-- `$ npm install express`
-- `$ npm install express-ejs-layouts`
-- `$ npm install ejs`
-- `$ npm install body-parser`
+$ npm install -g nodemon #use live server
 
-- `$ npm install request`
-- `$ npm install axios`
+#roption
+$ npm install request
+$ npm install axios
 
-> `$ npm install -g nodemon`
-
+```
 #### file package.json 　
 
 ```{
