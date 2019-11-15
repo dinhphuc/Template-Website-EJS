@@ -40,17 +40,20 @@ app
 ```
 
 #### package.json
+```
+#require
+$ npm install express
+$ npm install express-ejs-layouts
+$ npm install ejs
+$ npm install body-parser
 
-- `$ npm install express`
-- `$ npm install express-ejs-layouts`
-- `$ npm install ejs`
-- `$ npm install body-parser`
+$ npm install -g nodemon #use live server
 
-- `$ npm install request`
-- `$ npm install axios`
+#roption
+$ npm install request
+$ npm install axios
 
-> `$ npm install -g nodemon`
-
+```
 #### file package.json 　
 
 ```{
@@ -86,4 +89,4 @@ app
 
 ## Copyright and License
 
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT] license.
+Copyright 2019 Phucnd -  Sauanla. Code released under the [MIT] license.
