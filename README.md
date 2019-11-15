@@ -1,7 +1,28 @@
-# Template Website EJS
+# [Template Website EJS](https://sauanla.com)
 
-##  Structure
- ```
+[Template](https://github.com/seakBz/Template-Website-EJS) is an open source, use admin dashboard template for [Bootstrap](http://getbootstrap.com/) created by [Phucnd](http://sauanla.com/).
+
+## Preview
+
+[![SB Admin Preview](https://startbootstrap.com/assets/img/screenshots/templates/sb-admin.png)](https://blackrockdigital.github.io/startbootstrap-sb-admin/)
+
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-sb-admin/)**
+
+## Status
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-sb-admin/master/LICENSE)
+
+## Download and Installation
+
+To begin using this template, choose one of the following options to get started:
+
+- Download the repo
+- Clone the repo: `git clone git@github.com:seakBz/Template-Website-EJS.git`
+- [Fork, Clone, or Download on GitHub](git@github.com:seakBz/Template-Website-EJS.git)
+
+## Structure
+
+```
 app
 ├── public
 │   └── assets
@@ -18,7 +39,8 @@ app
 └── index.js
 ```
 
-##  package.json
+#### package.json
+
 - `$ npm install express`
 - `$ npm install express-ejs-layouts`
 - `$ npm install ejs`
@@ -29,7 +51,8 @@ app
 
 > `$ npm install -g nodemon`
 
-#### file package.json　
+#### file package.json 　
+
 ```{
   "name": "template-ejs-website",
   "version": "1.0.0",
@@ -53,5 +76,14 @@ app
 }
 ```
 
-##  Start
+## Start
+
 - `$ npm run dev`
+
+## About
+
+- https://sauanla.com
+
+## Copyright and License
+
+Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT] license.
