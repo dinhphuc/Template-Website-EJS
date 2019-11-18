@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "tsc": "tsc"
   },
   "author": "PhucBinz",
   "license": "MIT",
@@ -16,7 +17,8 @@
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "typescript": "^3.7.2"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
