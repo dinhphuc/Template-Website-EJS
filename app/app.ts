@@ -1,8 +1,8 @@
-var express = require('express')
+import express = require('express')
 var bodyParser = require('body-parser')
 
 //Import
-var config = require('./src/config/config')
+var config = require('../src/config/config')
 
 var app = express()
 var port = process.env.PORT || config.port
@@ -14,14 +14,14 @@ console.info('Location: http://localhost:' + port)
 
 //Use layout
 var expressLayouts = require('express-ejs-layouts')
-const demoRoute = require('./src/controllers/demoController')
+const demoRoute = require('../src/controllers/demoController')
 
 // Support encoded bodies - body-parser
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 // Setup root source public
-app.use(express.static(__dirname + '/public'))
+app.use(express.static(__dirname + '../../public'))
 
 /**
  *  Use Router
@@ -36,6 +36,6 @@ app.set('views', './views')
 
 // Home setup
 
-app.get('/', function(req, res) {
+app.get('/', function(req: any, res: any) {
   res.render('index')
 })

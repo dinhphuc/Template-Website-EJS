@@ -1,4 +1,4 @@
-const express = require('express')
+import express from 'express'
 const demoRoute = express.Router()
 var expressLayouts = require('express-ejs-layouts')
 demoRoute.use(express.static(__dirname + '/public'))
